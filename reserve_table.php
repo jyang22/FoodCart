@@ -148,7 +148,7 @@ function test_input($data) {
   <br>
   <p>
       <span class="fields"> Date:</span>
-      <input name="somedate" type="date" min="2013-12-25">
+      <input name="somedate" type="date" min="2015-12-02">
  
     <span class="error">* </span>
     <span id="dateErr"><?php echo $dateErr;?></span>

@@ -22,6 +22,8 @@ $total_price=$_SESSION["order"]["totalprice"];
  //Get user name from session when user is logged in
 if(!empty( $_SESSION["username"])) {
 $userId=$_SESSION["username"];
+}else{
+    $userId="anonymous";
 }
 
 

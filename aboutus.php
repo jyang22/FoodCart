@@ -29,8 +29,8 @@ Around here, we don’t settle for anything less than food we’re proud to serv
       <div class=" company_info">
             <h1 class="contactHeading">Company Information</h1>
 
-                <p class="contactText">400 El Camino Real<br>
-                  22-56-2-9 Sit Amet, Lorem,<br>
+                <p class="contactText">500 El Camino Real<br>
+                  Santa clara, CA<br>
                   USA<br>
                   Phone:(00) 123 456 789<br>
                   Fax: (000) 000 00 00 0<br>

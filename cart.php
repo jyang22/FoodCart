@@ -112,6 +112,8 @@ $getquantity = isset($_GET['quantity']) ? $_GET['quantity'] : "";
                             <p>Order total</p>
 
                             <!-- coupon -->
+                            <?php       if(count($_SESSION['cart_items']) > 0){
+                            ?>
                             <div id="coupon">
                                 <form id="promo-form" action="cart.php" method="POST">
                                         <label for="coupon_code">Have a coupon/promotion code :</label>
@@ -119,7 +121,10 @@ $getquantity = isset($_GET['quantity']) ? $_GET['quantity'] : "";
                                         <input type="submit" class="coupon_btn" value="ADD"></input>
                                 </form>
                 
-                            </div>       
+                            </div>   
+                            <?php
+                    }
+?>
                                          <?php
                             if($coupon=='FOOD10'){
     ?>
@@ -144,7 +149,11 @@ $getquantity = isset($_GET['quantity']) ? $_GET['quantity'] : "";
                     <tr>
                         <td colspan="3">
                             <!-- check out -->
-                            <a href='checkout.php?totalp=<?=$totalOrder?>' id='table-check-out'>checkout</a>
+                       <?php       if(count($_SESSION['cart_items']) > 0){
+                            ?><a href='checkout.php?totalp=<?=$totalOrder?>' id='table-check-out'>checkout</a>
+                            <?php
+                            }
+?>
                         </td>
                     </tr>   
                 </table>

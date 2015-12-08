@@ -33,7 +33,7 @@ $cart_count=count($_SESSION['cart_items']);
     <header>
         <div id="logo">
             <a href="index.php"><img src="foodcart.png" alt="FoodCart"></a>
-            <a href="index.php" id="foodcart">Food Cart</a>
+            <span id="foodcart">Food Cart</span>
         </div>
 
         <div id="cart">

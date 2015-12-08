@@ -63,7 +63,7 @@
                 </form>
             </div>
             <div id="check-out">
-                <a class="check-out-btn" href="">check out</a>
+                <a class="check-out-btn" href="">Order</a>
             </div>
         </div>
     </div>

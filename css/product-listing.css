@@ -11,7 +11,7 @@
   cursor: pointer;
   color: #993b52;
   position: relative;
-  bottom: -15px;
+  bottom: -20px;
 }
 
 .open-detail:hover {
@@ -21,7 +21,7 @@
 
 .order-button {
   position: relative;
-  bottom: -15px;
+  bottom: -20px;
   text-align: center;
   margin-top: 35px;
   width: 100%;
@@ -43,6 +43,7 @@
 
 .product-title{
     font: 25px bold Helvetica;
+    text-transform:capitalize;
 }
 
 .product-desc{
@@ -50,6 +51,7 @@
     color: #626262;
     margin-top: 15px;
     margin-bottom: 10px;
+    text-transform:capitalize;
 }
 
 ul.rig {
