@@ -47,7 +47,7 @@ Around here, we don’t settle for anything less than food we’re proud to serv
         </div>
       </div>
 </body>
-<script src="https://maps.googleapis.com/maps/api/js"></script>
+
   <?php                
 include 'footer.php';
 ?>
